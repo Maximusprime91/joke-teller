@@ -16,12 +16,14 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url('./robot.gif');
+  background: url("https://giphy.com/embed/3ohhwhKTtFWpP7bQOs");
   background-size: contain;
   background-position: left center;
   background-repeat: no-repeat;
 }
-
+audio {position: absolute;
+  z-index: 2;
+  margin-top: 5rem;}
 button {
   cursor: pointer;
   outline: none;
@@ -34,6 +36,8 @@ button {
   border: none;
   border-radius: 5px;
   box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  z-index: 2;
 }
 
 button:hover {
